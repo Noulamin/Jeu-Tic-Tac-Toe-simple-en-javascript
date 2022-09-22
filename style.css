@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+body{
+    background-image: url("images/back.jpg");
+    margin: 0px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons{
+    margin-top: 41px;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 25vw;
+    height: 39vw;
+    background-color: #555555;
+    position: relative;
+    /*box-shadow: 0px 0px 20px 2px #888888;*/
+    position: relative;
+}
+
+.operations_and_numbers{
+    width: 100%;
+}
+
+.row{
+    bottom: 0px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.1vw;
+    font-weight: unset;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0px;
+    color: white;
+}
+
+.winner_text{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    margin-top: 0.2vw;
+    border-radius: 9px;
+    background-color: #111111;
+    outline: none;
+    border: none;
+    color: white;
+    margin: 3px;
+    font-size: 37px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.restart{
+    display: flex;
+    justify-content: center;
+}
+
+.restart_button{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.restart_button:hover{
+    cursor: pointer;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.player{
+    width: 100%;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 3px solid black;
+
+}
+
+.inp_flex{
+    width: 209px;
+}
+
+.button_operation{
+    width: 5.9vw;
+    height: 4.2vw;
+    margin-top: 0.2vw;
+    border-radius: 0px;
+    background-color: #323232;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.button_operation_minus{
+    width: 5.9vw;
+    height: 4.2vw;
+    margin-top: 0.2vw;
+    border-radius: 0px;
+    background-color: #323232;
+    outline: none;
+    border: none;
+    color: white;
+    padding-bottom: 1.7vw;
+}
+
+.bu_x{
+    display: inline-block;
+    width: 3.5vw;
+    height: 2.3vw;
+    background-color: #555555;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.bu_x:hover{
+    background-color: red;
+}
+
+.bu_max{
+    display: inline-block;
+    width: 3.5vw;
+    height: 2.3vw;
+    background-color: #555555;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.bu_min{
+    display: inline-block;
+    width: 3.5vw;
+    height: 2.3vw;
+    background-color: #555555;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+img{
+    max-width: 0.9vw;
+}
+
+.img_delete{
+    max-width: 1.6vw;
+}
+
+
+.operation{
+    margin-top: 5vw;
+    padding-right: 1.7vw;
+    float: right;
+    color: #BBBBBB;
+    font-size: 1.4vw;
+    height: 1.9vw;
+    word-break: break-all;
+}
+
+.result{
+    float: right;
+    margin-top: 0.4vw;
+    font-size: 3vw;
+    position: absolute;
+    right: 1vw;
+    top: 9vw;
+    word-break: break-all;
+}
+
+.bu_max:hover{
+    background-color: #757575;
+}
+
+.bu_min:hover{
+    background-color: #757575;
+}
+
+.bu_max:active{
+    background-color: #848484;
+}
+
+.bu_min:active{
+    background-color: #848484;
+}
+
+.button_:hover{
+    background-color: #757575;
+}
+
+.button_:active{
+    background-color: #848484;
+}
+
+.button_equals:hover{
+    background-color: #0975CA;
+}
+
+.button_equals:active{
+    background-color: #0A7CDA;
+}
+
+.button_operation:hover{
+    background-color: #757575;
+}
+
+.button_operation:active{
+    background-color: #848484;
+}
