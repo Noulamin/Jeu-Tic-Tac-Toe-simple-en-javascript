@@ -123,6 +123,7 @@ content.addEventListener('click', (event) => {
         player1.push(event.target.id)
         event.target.style.background = 'blue'
         event.target.textContent = '✖'
+        event.target.style.color = 'white'
     }
     else
     {
